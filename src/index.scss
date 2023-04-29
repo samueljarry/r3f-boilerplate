@@ -1,0 +1,27 @@
+*, body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  width:100%;
+  min-height: 100vh;
+  background-color: #F1F3F7;
+
+  #root
+  {
+    width:100%;
+    min-height:100vh;
+
+    .webgl
+    {
+      position:fixed !important;
+      width:100% !important;
+      height:100vh !important;
+    }
+  }
+}
+
